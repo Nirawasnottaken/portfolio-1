@@ -1,0 +1,30 @@
+# Edit this file to update the information shown across the website.
+# Keep one key=value entry per line. Use | between multiple about paragraphs or skills.
+# Use <br> for a line break in headline. Do not put private information here; this file is public.
+name=Niranjan
+brand=N.
+eyebrow=ENGINEERING · AI · TECHNOLOGY
+headline=Building at the<br>intersection of <span>engineering</span><br>and intelligence<span class="cyan">.</span>
+intro=I’m an engineering student exploring artificial intelligence, software development, and practical technology solutions.
+introMore=From intelligent systems to hardware-focused experiments, I learn by building and turn ideas into working prototypes.
+about=I’m an engineering student at Dhanalakshmi College of Engineering, Chennai, interested in the intersection of mechanical engineering, artificial intelligence, and software development.|I enjoy experimenting with new tools and turning ideas into functional projects — from Python applications and machine learning experiments to hardware-integrated systems.|My goal is to keep strengthening my technical foundation and contribute to projects that connect innovation with real-world utility.
+location=Chennai, India
+locationShort=CHENNAI, IN
+email=gpniranjan1122@gmail.com
+github=https://github.com/Nirawasnottaken
+linkedin=https://www.linkedin.com/in/g-niranjan-2a88b6375/
+skillsProgramming=Python, Java, C, SQL
+skillsAI=Scikit-learn, OpenCV, TensorFlow / Keras
+skillsSoftware=Flask, MySQL
+skillsTools=Git & GitHub, Linux, Raspberry Pi
+educationDates=2024 — 2028
+degree=Bachelor of Engineering — B.E. CSE (AI & ML)
+school=Dhanalakshmi College of Engineering · Chennai, India
+educationDescription=Building a foundation in engineering principles while exploring AI, machine learning, programming, and practical technology projects.
+experienceLabel=STUDENT LEADERSHIP / COMMUNITY
+experienceVisible=false
+experienceDates=2024 — Present
+experienceTitle=Rotaract Club — Student Leadership & Community Initiatives
+experiencePlace=Dhanalakshmi College of Engineering
+experienceDescription=Active member contributing to campus technology events, youth empowerment initiatives, and collaborative community projects.
+contactIntro=I’m interested in engineering, AI, software, and projects that solve real problems. Reach out to discuss an opportunity or collaboration.

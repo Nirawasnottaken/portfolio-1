@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05090d">
+  <meta name="description" content="Projects built and project ideas by Niranjan.">
+  <title>Projects &amp; Ideas | Nirawastaken</title>
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="mouse-spotlight" aria-hidden="true"></div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <header class="site-header">
+    <a class="brand" href="index.html#home">
+      <span class="brand-signal"></span>
+      <span>N.</span>
+      <span class="brand-name">NIRAWASTAKEN</span>
+    </a>
+    <nav aria-label="Main navigation" class="desktop-nav">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects" class="nav-active" aria-current="page">Projects</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="mobile-menu" href="index.html#projects" aria-label="Back to portfolio" style="padding: 8px 14px; border: 1px solid var(--line); border-radius: 6px; color: var(--cyan); font-family: var(--font-mono); font-size: 11px;">← PORTFOLIO</a>
+  </header>
+
+  <main id="main-content" class="projects-page" tabindex="-1">
+    <section class="section projects-section" aria-labelledby="page-title">
+      <a class="text-link back-link" href="index.html#projects">← Back to portfolio</a>
+      
+      <div class="section-heading">
+        <div>
+          <div class="section-label"><i></i>ALL WORK &amp; NEXT STEPS</div>
+          <h1 id="page-title" class="projects-page-title">Projects &amp; <span>ideas.</span></h1>
+        </div>
+        <p>A comprehensive repository of completed systems, active prototypes, and emerging engineering concepts.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="projects-filter-bar" role="tablist" aria-label="Filter projects by domain">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+        <button class="filter-btn" data-filter="built" role="tab" aria-selected="false">Built</button>
+        <button class="filter-btn" data-filter="ai" role="tab" aria-selected="false">AI &amp; Vision</button>
+        <button class="filter-btn" data-filter="hardware" role="tab" aria-selected="false">Hardware &amp; IoT</button>
+        <button class="filter-btn" data-filter="ideas" role="tab" aria-selected="false">Ideas &amp; Concepts</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid" data-show-all="true" aria-live="polite"></div>
+      
+      <a class="button button-secondary projects-back-button" href="index.html#projects">
+        Return to portfolio <span>↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html#home">
+      <span class="brand-signal"></span>
+      <span>N.</span>
+      <span class="brand-name">NIRAWASTAKEN</span>
+    </a>
+    <span>BUILDING IDEAS, ONE PROJECT AT A TIME.</span>
+    <a href="terms.html">TERMS</a>
+    <a href="privacy.html">PRIVACY</a>
+    <span>© <span id="year"></span> Niranjan</span>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Back to top floating button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Add projects using one record per block, with fields separated by |.
+# Format: title | category | description | comma-separated technologies | status | optional link
+# Do not use | inside a field. The first two projects show initially; “Show more” reveals the rest.
+
+
+
+Intelligent Face Attendance System For Bus | COMPUTER VISION · EMBEDDED AI | A bus attendance system using camera input and face recognition to record attendance. | Python, OpenCV / dlib, Raspberry Pi | BUILT |
+Nira TV | IP · NETWORK · LAN | A movie and video streaming website hosted on a home server and available across a local network for office or home use. | Python, Flask, Home Server | BUILT |
+Multimodal Human Activity Recognition | AI PROJECT BUILDER · FULL-STACK | A full-stack AI project builder that turns project specifications into downloadable codebases, with optional GitHub publishing. | React, Vite, FastAPI, Python, OpenAI-compatible API, GitHub OAuth | BUILT | https://github.com/Nirawasnottaken/Multimodal-AI-System-for-Human-Activity-Understanding-Using-Video-Audio-and-Sensor-Data
+Bus Attendance Review Dashboard | TRANSPORT · ATTENDANCE | An idea that extends the bus attendance project with a simple trip-by-trip view of recorded attendance for staff. | Python, OpenCV, Data Visualization | IDEA |
+GPS Location Logger | EMBEDDED SYSTEMS · GPS | A location-logging workflow that reads GPS coordinates and saves named places for later use. | Python, NEO-6M GPS, CSV | PROTOTYPE |
